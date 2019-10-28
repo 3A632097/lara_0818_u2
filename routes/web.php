@@ -14,7 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
+//回傳home頁面
+//Route::get('home',function(){
+//    return view('home');
+//});
 Route::get('home',function(){
-    return view('home');
+    return view('home.index');
 });
